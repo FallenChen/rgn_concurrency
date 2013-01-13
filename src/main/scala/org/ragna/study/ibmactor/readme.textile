@@ -1,0 +1,16 @@
+
+h1.  Actor Concurrency for Java Applications
+
+
+{toc}
+
+
+h2. Actors and the Actor Model
+
+
+* "The busy Java developer's guide to Scala: Dive deeper into Scala concurrency":http://www.ibm.com/developerworks/java/library/j-scala04109/index.html#N10099
+** "The busy Java developer's guide to Scala: Explore Scala concurrency":http://www.ibm.com/developerworks/java/library/j-scala02049/index.html
+
+h2. Reference
+
+* "Actor concurrency for Java applications":http://www.ibm.com/developerworks/training/kp/j-kp-actorconcurrency/index.html?ca=drs-
