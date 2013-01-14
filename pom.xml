@@ -33,6 +33,12 @@
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.ibm.actor</groupId>
+      <artifactId>j-javaactors</artifactId>
+      <version>1.0</version>
+    </dependency>
     
     
     <dependency>

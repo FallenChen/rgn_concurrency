@@ -11,6 +11,14 @@ h2. Actors and the Actor Model
 * "The busy Java developer's guide to Scala: Dive deeper into Scala concurrency":http://www.ibm.com/developerworks/java/library/j-scala04109/index.html#N10099
 ** "The busy Java developer's guide to Scala: Explore Scala concurrency":http://www.ibm.com/developerworks/java/library/j-scala02049/index.html
 
+h2. Why actor concurrency?
+
+
+h2. What can I do with actors
+
+
+* "Java development 2.0: Introducing Kilim":http://www.ibm.com/developerworks/java/library/j-javadev2-7/index.html#N1008E
+
 
 
 
@@ -18,3 +26,5 @@ h2. Actors and the Actor Model
 h2. Reference
 
 * "Actor concurrency for Java applications":http://www.ibm.com/developerworks/training/kp/j-kp-actorconcurrency/index.html?ca=drs-
+* "Install an external jar into local Maven repository":http://jeff.langcode.com/archives/27
+* "A Java actor library for parallel execution":http://www.ibm.com/developerworks/library/j-javaactors/index.html
