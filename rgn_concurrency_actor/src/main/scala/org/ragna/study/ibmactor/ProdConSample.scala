@@ -1,28 +1,28 @@
 package org.ragna.study.ibmactor
 
-import concurrent.MailBox
 import concurrent.ops._
 
 object ProdConSample {
   class Drop {
-    private val m = new MailBox()
+    //private val m = new MailBox()
     private case class Empty()
     private case class Full(x: String)
 
-    m send Empty() //initialization
+    //m send Empty() //initialization
 
     def put(msg: String): Unit = {
-      m receive {
-        case Empty() =>
-          m send Full(msg)
-      }
+      //m receive {
+  //      case Empty() =>
+        //  m send Full(msg)
+    //  }
     }
 
     def take(): String = {
-      m receive {
-        case Full(msg) =>
-          m send Empty(); msg
-      }
+      //m receive {
+       // case Full(msg) =>
+         // m send Empty(); msg
+      //}
+     ""
     }
 
   }
