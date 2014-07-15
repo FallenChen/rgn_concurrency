@@ -31,18 +31,19 @@ object ActorDropSample {
   }
 
   def main(args: Array[String]): Unit = {
-    import concurrent.ops._
+	import scala.concurrent.{ future, promise }
+	import scala.concurrent.ExecutionContext.Implicits.global
 
     val drop = new Drop()
     //Spawn Producer
-    spawn {
+    future {
       val importantInfo: Array[String] = Array("Mares eat oats", "Does eat oats", "Little lambs eat ivy", "A kid will eat ivy too")
       importantInfo.foreach(msg => drop.put(msg))
       drop.put("DONE")
     }
 
     //Spawn Consumer
-    spawn{
+    future{
       var message = drop.take()
       while(message != "DONE"){
         printf("MESSAGE RECEIVED: %s\n", message)

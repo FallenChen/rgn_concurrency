@@ -5,7 +5,7 @@ import scala.actors._, Actor._
 object Actor2 {
   case class Speak(line: String)
   case class Gesture(bodyPart: String, action: String)
-  case class NegotiateNewContract
+  case class NegotiateNewContract()
 
   def main(args: Array[String]): Unit = {
     val badActor =

@@ -1,6 +1,7 @@
 package org.ragna.study.ibmactor
 
-import concurrent.ops._
+import scala.concurrent.{ future, promise }
+import scala.concurrent.ExecutionContext.Implicits.global
 
 object ProdConSample {
   class Drop {
@@ -31,7 +32,7 @@ object ProdConSample {
     val drop = new Drop()
 
     //Spawn producer
-    spawn {
+    future {
       val importantInfo: Array[String] = Array(
         "Mares eat oats", "Does eat oats", "Little lambs eat ivy", "A kid will eat ivy too")
 
@@ -40,7 +41,7 @@ object ProdConSample {
     }
 
     //Spawn Consumer
-    spawn {
+    future {
       var message = drop.take()
       while (message != "DONE") {
     	  System.out.format("MESSAGE RECEIVED: %s\n", message)

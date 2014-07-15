@@ -3,7 +3,7 @@ package org.ragna.study.ibmactor
 import scala.actors._, Actor._
 
 object CountingSample {
-  case class Incr
+  case class Incr()
   case class Value(sender: Actor)
   case class Lock(sender: Actor)
   case class Unlock(value: Int)

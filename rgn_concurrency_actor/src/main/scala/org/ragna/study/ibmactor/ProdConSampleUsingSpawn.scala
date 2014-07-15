@@ -1,7 +1,9 @@
 package org.ragna.study.ibmactor
 
 import scala.actors._, Actor._
-import concurrent.ops._
+import scala.concurrent.{ future, promise }
+import scala.concurrent.ExecutionContext.Implicits.global
+
 
 object ProdConSampleUsingSpawn {
 
@@ -22,7 +24,8 @@ object ProdConSampleUsingSpawn {
       }
 
     //Spawn producer
-    spawn {
+    //spawn {
+    val r = future {
       val importantInfo: Array[String] = Array(
         "Mares eat oats", "Does eat oats", "Little lambs eat ivy", "A kid will eat ivy too", "DONE")
 

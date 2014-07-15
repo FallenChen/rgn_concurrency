@@ -5,8 +5,8 @@ import scala.actors._, Actor._
 object Actor3 {
   case class Speak(line: String)
   case class Gesture(bodyPart: String, action: String)
-  case class NegotiateNewContract
-  case class ThatsAWrap
+  case class NegotiateNewContract()
+  case class ThatsAWrap()
 
   def main(args: Array[String]): Unit = {
     //method that shows threadname
