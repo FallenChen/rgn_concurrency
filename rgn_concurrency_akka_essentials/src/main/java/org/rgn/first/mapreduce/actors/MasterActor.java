@@ -12,15 +12,15 @@ import akka.routing.RoundRobinPool;
 public class MasterActor extends UntypedActor {
 
 	ActorRef mapActor = getContext().actorOf(
-			Props.create(MapActor.class).withRouter(
-					new RoundRobinPool(5)));
+			Props.create(MapActor.class).withRouter(new RoundRobinPool(5)),
+			"map");
 
 	ActorRef reduceActor = getContext().actorOf(
-			Props.create(ReduceActor.class).withRouter(
-					new RoundRobinPool(5)));
+			Props.create(ReduceActor.class).withRouter(new RoundRobinPool(5)),
+			"reduce");
 
 	ActorRef aggregateActor = getContext().actorOf(
-			Props.create(AggregateActor.class));
+			Props.create(AggregateActor.class), "aggregate");
 
 	@Override
 	public void onReceive(Object message) throws Exception {

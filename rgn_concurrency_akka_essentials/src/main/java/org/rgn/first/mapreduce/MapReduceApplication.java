@@ -20,7 +20,7 @@ public class MapReduceApplication {
 		Timeout timeout = new Timeout(Duration.create(5, TimeUnit.SECONDS));
 		ActorSystem _system = ActorSystem.create("MapReduceApp");
 
-		ActorRef master = _system.actorOf(Props.create(MasterActor.class));
+		ActorRef master = _system.actorOf(Props.create(MasterActor.class), "master");
 		master.tell(
 				"The quick brownfox tried to jumo over the lazy dog and fell on the dog",
 				null);
