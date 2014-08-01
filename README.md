@@ -2,8 +2,15 @@ rgn_concurrency
 ===============
 
 
-Concurrency studies
+Akka Actors
+-----------
 
+* [2012] Munish K. Gupta - Akka Essentials - Packt
+
+Concurrency studies - Disruptor
+-------------------------------
+
+* Disruptor (IntroToDisruptorWithExtras originally pulished in: https://www.dropbox.com/s/cse2rd5e699g3so/IntroToDisruptorWithExtras.zip)
 
 https://www.google.com.br/search?q=java+circular+queue+inter+thread&oq=java+circular+queue+inter+thread&aqs=chrome..69i57.10344j0j7&sourceid=chrome&es_sm=122&ie=UTF-8
 http://lmax-exchange.github.io/disruptor/
