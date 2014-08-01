@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dist">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/dist" />
+      <root url="file://$PROJECT_DIR$/lib/dist" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/sources/disruptor-2.10.1-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib/dist" recursive="false" />
+  </library>
+</component>
