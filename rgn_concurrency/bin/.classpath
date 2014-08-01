@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="rgn_concurrency_actor/|rgn_concurrency_actor/docs/|rgn_concurrency_actor/lib/com/ibm/actor/|rgn_concurrency_actor/src/main/java/|rgn_concurrency_actor/src/main/scala/org/ragna/study/|rgn_concurrency_actor/src/main/scala/org/ragna/study/ibmactor/|rgn_concurrency_actor/src/test/scala/org/ragna/study/|rgn_concurrency_actor/target/|rgn_concurrency_actor/target/classes/|rgn_concurrency_akka_essentials/|rgn_concurrency_akka_essentials/src/main/java/org/rgn/first/mapreduce/|rgn_concurrency_akka_essentials/src/test/java/org/rgn/first/mapreduce/|rgn_concurrency_akka_essentials/target/|rgn_concurrency_akka_essentials/target/classes/|rgn_concurrency_akka_essentials/target/classes/org/rgn/first/mapreduce/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
