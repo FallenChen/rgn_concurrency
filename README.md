@@ -23,6 +23,17 @@ Concurrency studies - Disruptor
 * https://www.google.com.br/search?safe=off&es_sm=122&q=SPSC+java&oq=SPSC+java&gs_l=serp.3..0l10.1806.2986.0.3077.5.5.0.0.0.0.296.296.2-1.1.0....0...1c.1.49.serp..4.1.295.qvbchLb4qcQ
 * https://github.com/truemped/hazelcast-actor
 * http://mechanitis.blogspot.com.br/2012/09/strangeloop-disruptor-workshop-materials.html
+* http://www.wjblackburn.me/resources/LMAX-disruptor-example.html
+* https://gist.github.com/ajsutton/1243275
+* https://coderwall.com/p/eizf_g
+* http://vijayrc.com/vectorclocks/post/thread3#.U979KHVdXVM
+* http://stackoverflow.com/questions/9826512/disruptor-helloworld-example?rq=1
+* http://stackoverflow.com/questions/9168602/the-simplest-and-actual-example-code-of-lmax-disruptor
+* http://www.symphonious.net/2011/09/26/background-logging-with-the-disruptor/
+* https://groups.google.com/forum/#!topic/lmax-disruptor/RHjGcX6P6MY
+* http://camel.apache.org/disruptor.html
+
+
 
 Concurrency studies - General
 -----------------------------
