@@ -32,7 +32,7 @@ Concurrency studies - Disruptor
 * http://www.symphonious.net/2011/09/26/background-logging-with-the-disruptor/
 * https://groups.google.com/forum/#!topic/lmax-disruptor/RHjGcX6P6MY
 * http://camel.apache.org/disruptor.html
-
+* http://java.dzone.com/articles/dissecting-disruptor-wiring
 
 
 Concurrency studies - General
